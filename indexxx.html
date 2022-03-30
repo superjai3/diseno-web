@@ -71,66 +71,100 @@
     />
   </head>
 
-  <body>
-    <header class="main-head">
-      <!--Navbar-->
-      <div class="navbar">
-        <div class="container flex">
-          <h1 class="logo">Guacuco´s Resto Bar</h1>
+  <!-- cuerpo de la web -->
 
-          <nav>
-            <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="nosotros.html">Nosotros</a>
-              </li>
-              <li>
-                <a href="productos.html">Productos</a>
-              </li>
-              <li>
-                <a href="recetas.html">Recetas</a>
-              </li>
-              <li>
-                <a href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </nav>
+  <body>
+    <!--Navbar-->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Guacuco Store</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a href="productos.html">Productos</a>
+            </li>
+            <li>
+              <a href="recetas.html">Recetas</a>
+            </li>
+            <li>
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!--Showcase-->
+    <section class="showcase">
+      <div class="container grid playita">
+        <div class="showcase-text intro">
+          <h2>
+            <strong> Playa Guacuco </strong>
+          </h2>
+
+          <p>
+            Se encuentra ubicada en Isla Margarita Venezuela, es una de las
+            playas favoritas de todos los temporadistas, lugar único en el mundo
+            caracterizado por su oleaje perfecto y su gran cantidad palmeras que
+            adornan su ambiente caribeño.
+
+            <br />
+            <br />
+
+            Al probar nuestros platos, automáticamente te transportaras a
+            nuestra playa favorita.
+          </p>
+
+          <a href="nosotros.html" class="btn btn-warning btn-outline-dark">
+            Leer Mas
+          </a>
+        </div>
+
+        <div class="showcase-form card">
+          <h2>Suscríbete a Guacucos Store</h2>
+          <form>
+            <div class="form-control">
+              <input
+                type="text"
+                name="name"
+                placeholder="Nombre y Apellido"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="telefono"
+                placeholder="Whatsapp"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input type="text" name="email" placeholder="Email" required />
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              class="btn btn-primary"
+              alt="Suscríbete"
+            />
+          </form>
         </div>
       </div>
-    </header>
-
-    <main>
-      <section class="hero">
-        <h2>
-          <strong> Playa Guacuco </strong>
-        </h2>
-        <h3>
-          <p>
-            Se encuentra ubicada en Isla Margarita Venezuela, lugar único en el
-            mundo caracterizado por su oleaje perfecto y su gran cantidad
-            palmeras que adornan su ambiente caribeño.
-
-            <br />
-            <br />
-
-            Te garantizamos que al probar nuestros platos, automáticamente te
-            transportaras a nuestra playa Guacuco.
-          </p>
-        </h3>
-        <a href="nosotros.html" class="btn btn-warning btn-outline-dark">
-          Leer Mas
-        </a>
-      </section>
-    </main>
+    </section>
 
     <!--Platos Típicos-->
     <section class="platos">
       <div class="container">
         <center>
           <h3 class="stats-heading text-center my-1">
-            Ranking de Platos Típicos Venezolanos!!!
+            Platos Típicos Venezolanos!!!
           </h3>
         </center>
 
@@ -140,7 +174,7 @@
           <div class="grid grid-3 text-center my-4">
             <!--Arepas-->
             <div>
-              <h3>N°1: Arepas</h3>
+              <h3>Arepas</h3>
               <p class="text-seconday">Conoce más de sus rellenos...</p>
               <div class="card">
                 <img src="./imagenes/varios/arepa2.jpg" alt="arepa" />
@@ -149,7 +183,7 @@
 
             <!--Cachapas-->
             <div>
-              <h3>N°2: Cachapas</h3>
+              <h3>Cachapas</h3>
               <p class="text-seconday">Maíz Pilao...</p>
               <div class="card">
                 <img src="./imagenes/varios/Cachapa1.webp" alt="cachapa" />
@@ -158,7 +192,7 @@
 
             <!--Tequeños-->
             <div>
-              <h3>N°3: Tequeños</h3>
+              <h3>Tequeños</h3>
               <p class="text-seconday">Rellenos de delicioso queso...</p>
               <div class="card">
                 <img src="./imagenes/varios/teque.png" alt="tequeños" />
@@ -167,16 +201,57 @@
           </div>
         </section>
       </div>
-
-      <a href="productos.html" class="platos btn btn-warning btn-outline-dark">
-        Conoce más platos...
-      </a>
     </section>
 
-    <br />
-    <br />
+    <section class="">
+      <div class="container">
+        <section class="seguidores">
+          <div class="grid grid-3 text-center my-4">
+            <!--pabellon criollo-->
+            <div>
+              <h3>Pabellon Criollo</h3>
+              <p class="text-seconday">La combinación perfecta...</p>
+              <div class="card carusel">
+                <img
+                  src="./imagenes/varios/pabellonn.jpg"
+                  alt="pabellon criollo"
+                  width="100"
+                  height="240"
+                />
+              </div>
+            </div>
 
-    <br />
+            <!--Hallacas-->
+            <div>
+              <h3>Hallacas</h3>
+              <p class="text-seconday">Un clásico navideño...</p>
+              <div class="card carusel">
+                <img
+                  src="./imagenes/varios/hallacas.webp"
+                  alt="hallacas"
+                  width="100"
+                  height="240"
+                />
+              </div>
+            </div>
+
+            <!--patacones-->
+            <div>
+              <h3>Patacones</h3>
+              <p class="text-seconday">Sabor gaitero...</p>
+              <div class="card carusel">
+                <img
+                  src="./imagenes/varios/patacon.jpeg"
+                  alt="patacones"
+                  width="100"
+                  height="240"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
 
     <!--footer-->
 
@@ -187,12 +262,12 @@
           <p>CopyRight &copy; 2022 | Guacuco Store | Creada por Jaime Valdés</p>
         </div>
         <nav>
-          <ul class="menuFood">
-            <li><a href="index.html">Home </a></li>
-            <li><a href="nosotros.html">Nosotros </a></li>
-            <li><a href="productos.html">Productos </a></li>
-            <li><a href="recetas.html">Recetas </a></li>
-            <li><a href="contacto.html">Contacto </a></li>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </nav>
 

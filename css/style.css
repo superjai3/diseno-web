@@ -49,6 +49,8 @@ img {
   float: left;
   font-size: 1.5em;
   letter-spacing: 2px;
+  width: auto;
+  height: auto;
 }
 
 .logo {
@@ -63,7 +65,7 @@ img {
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
-  height: 120px;
+  height: 180px;
 }
 
 .navbar ul {
@@ -273,15 +275,6 @@ img {
   border: 2px solid;
 }
 
-.buttonc {
-  width: 50%;
-  background-color: #1c3fa8;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px;
-}
-
 .riesgos {
   text-align: center;
   display: flex;
@@ -306,5 +299,114 @@ img {
   .navbar ul {
     padding: 10px;
     background-color: rgba (0, 0, 0, 0.1);
+  }
+}
+
+button {
+  padding: 2rem 6rem;
+  background: #a5b3c3;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+button:hover {
+  background: #27394e;
+}
+button:focus {
+  background: #364d69;
+  outline-style: solid;
+}
+
+.platos{
+text-align: center;
+}
+
+
+.reserva{
+  te
+}
+
+
+
+/* nav and hero section*/
+
+.main-head {
+  background: #131c27;
+  color: rgb(231, 214, 214);
+  top: 0px;
+  position: sticky;
+  z-index: 3;
+}
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
+    url("/imagenes/varios/drink.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h3 {
+  padding: 5rem;
+}
+
+@keyframes cloudAnimation {
+  from {
+    transform: translate(10%, -10%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 933px) {
+  html {
+    font-size: 70%;
+  }
+  nav {
+    text-align: justify;
+  }
+  #logo {
+    padding: 2rem;
+  }
+  .cloud {
+    height: 40rem;
+  }
+  .moving-cloud-2 {
+    animation: cloudAnimation 3s infinite alternate ease-in-out;
+  }
+  footer {
+    text-align: justify;
+  }
+  footer h5 {
+    padding-bottom: 3rem;
+  }
+  .form-wrapper {
+    width: 100%;
   }
 }
