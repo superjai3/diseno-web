@@ -65,7 +65,7 @@ img {
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
-  height: 180px;
+  height: 120px;
 }
 
 .navbar ul {
