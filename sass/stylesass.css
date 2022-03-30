@@ -5,11 +5,6 @@ body {
 }
 
 .company {
-  text-align: center;
-  padding: 10px;
-}
-
-.container-company {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +17,11 @@ body {
   -webkit-box-flex: 4;
       -ms-flex-positive: 4;
           flex-grow: 4;
+  text-align: center;
+  padding: 10px;
+}
+
+.container-company {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32,5 +32,9 @@ body {
   padding: 10px;
   text-align: justify;
   width: 15;
+}
+
+h3 {
+  padding: 50px;
 }
 /*# sourceMappingURL=stylesass.css.map */

@@ -1,0 +1,23 @@
+{
+  "name": "entrega-final",
+  "version": "1.0.0",
+  "description": "entregafinal\r Entrega Final Coder House - Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superjai3/diseno-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superjai3/diseno-web/issues"
+  },
+  "homepage": "https://github.com/superjai3/diseno-web#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
