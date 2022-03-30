@@ -308,30 +308,3 @@ img {
     background-color: rgba (0, 0, 0, 0.1);
   }
 }
-
-/* Accordion */
-
-.collapse {
-  &:not(.show) {
-    display: none;
-  }
-}
-
-.collapsing {
-  height: 0;
-  overflow: hidden;
-  @include transition($transition-collapse);
-
-  &.collapse-horizontal {
-    width: 0;
-    height: auto;
-    @include transition($transition-collapse-width);
-  }
-}
-
-/* carusel */
-
-.carusel{
-  width="50px" height="50px"
-object-fit: cover;
-}
