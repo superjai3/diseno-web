@@ -1,14 +1,13 @@
+@import "fuente";
+@import "texto";
+
 @mixin flexT {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
   flex-grow: 4;
 }
-body {
-  font-family: "lato", sans-serif;
-  color: #333;
-  line-height: 1.6;
-}
+
 .company {
   @include flexT();
   text-align: center;
@@ -23,8 +22,4 @@ body {
     text-align: justify;
     width: 15;
   }
-}
-
-h3 {
-  padding: 50px;
 }
